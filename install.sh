@@ -30,8 +30,8 @@ CI=1; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 ## git
 brew install git
-git config --global user.email "kyle@trunk-studio.com"
-git config --global user.name "Kyle"
+git config --global user.email "kwe0349@gmail.comm"
+git config --global user.name "zongying_lin"
 
 ## Programmer's choice
 brew install htop tmux
