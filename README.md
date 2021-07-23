@@ -22,6 +22,7 @@ curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/update.
 使用 CMD
 
 `win`+`R` 輸入 cmd
+
 `Ctrl`+`Shift`+`Enter` 啟動
 
 install
@@ -35,7 +36,9 @@ curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade
 ```
 
 使用 powershell
+
 `win`+`R` 輸入 powershell
+
 `Ctrl`+`Shift`+`Enter` 啟動
 
 install
