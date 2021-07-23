@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 echo "all in one script install"
 code --list-extensions
 echo "install choco"
