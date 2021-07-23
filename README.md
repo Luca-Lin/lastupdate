@@ -1,4 +1,5 @@
 # lastupdate
+## mac
 First and Last Up-to-date All-in-one Script
 
 Install
@@ -12,4 +13,16 @@ Update
 
 ```
 curl -fsSL https://raw.githubusercontent.com/lyhcode/lastupdate/main/update.sh | bash
+```
+
+## windows
+
+install
+```
+curl
+```
+
+upgrade
+```
+curl
 ```
