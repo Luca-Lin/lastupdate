@@ -1,4 +1,6 @@
 #!/usr/bin/env pwsh
 
-## choco upgrade package
+echo "upgrade choco package"
+
+## update && upgrade
 choco upgrade -y all
