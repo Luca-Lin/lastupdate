@@ -27,12 +27,12 @@ curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/update.
 
 install
 ```
-curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/install.ps1 | powershell
+curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/curlInstall.ps1 | powershell
 ```
 
 upgrade
 ```
-curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade.ps1 | powershell
+curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/curlUpgrade.ps1 | powershell
 ```
 
 使用 powershell
@@ -43,12 +43,12 @@ curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade
 
 install
 ```
-curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/install.ps1 | Select -ExpandProperty Content | powershell
+curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/curlInstall.ps1 | Select -ExpandProperty Content | powershell
 ```
 
 upgrade
 ```
-curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade.ps1 | Select -ExpandProperty Content | powershell
+curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/curlUpgrade.ps1 | Select -ExpandProperty Content | powershell
 ```
 
 ### download content and run shellscript

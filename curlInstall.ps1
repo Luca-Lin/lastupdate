@@ -1,24 +1,19 @@
 #!/usr/bin/env pwsh
-
 echo "all in one script start"
-
 echo "install choco"
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-## git
+echo "install git"
 choco install git
+echo "setting git"
 git config --global user.email "kwe0349@gmail.com"
 git config --global user.name "ZongYing_Lin"
-
-## git tool
+echo "install gitkraken"
 choco install gitkraken
+echo "install github-desktop"
 choco install github-desktop
-
-## vscode
+echo "install vscode"
 choco install vscode
-
-## vscode package
-# code --install-extension or code --uninstall-extension
+echo "install vscode extension"
 code --install-extension abusaidm.html-snippets
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension CoenraadS.bracket-pair-colorizer
@@ -43,42 +38,29 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension sidthesloth.html5-boilerplate
 code --install-extension skyran.js-jsx-snippets
 code --install-extension vscode-icons-team.vscode-icons
-
-## install windows-terminal
+echo "install windows-terminal"
 choco install microsoft-windows-terminal
-
-## install termius
+echo "install termius"
 choco install termius
-
-## install postman
+echo "install postman"
 choco install postman
-
-## google chrome
+echo "install google-chrome"
 choco install googlechrome
-
-## Line
+echo "install line"
 choco install line
-
-## Slack
+echo "install slack"
 choco install slack
-
-## Zoom
+echo "install zoom"
 choco install zoom
-
-## Notion
+echo "install notion"
 choco install notion
-
-## OpenVPN Connect
+echo "install openvpn-connect"
 choco install openvpn-connect
-
-## VirtulBox
+echo "install virtualbox"
 choco install virtualbox
-
-## Vagrant
+echo "install vagrant"
 choco install vagrant
-
-## docker-desktop
+echo "install docker-desktop"
 choco install docker-desktop
-
-## install winRAR
+echo "install winRAR"
 choco install winrar
