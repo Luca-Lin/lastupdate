@@ -64,3 +64,5 @@ echo "install docker-desktop"
 choco install docker-desktop
 echo "install winRAR"
 choco install winrar
+echo "install discord"
+choco install discord
