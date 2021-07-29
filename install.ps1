@@ -80,5 +80,8 @@ choco install vagrant
 ## docker-desktop
 choco install docker-desktop
 
-## install winRAR
+## winRAR
 choco install winrar
+
+## discord
+choco install discord
