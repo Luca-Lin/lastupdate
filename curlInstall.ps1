@@ -3,16 +3,16 @@ echo "all in one script start"
 echo "install choco"
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 echo "install git"
-choco install git
+choco install -y git
 echo "setting git"
 git config --global user.email "kwe0349@gmail.com"
 git config --global user.name "ZongYing_Lin"
 echo "install gitkraken"
-choco install gitkraken
+choco install -y gitkraken
 echo "install github-desktop"
-choco install github-desktop
+choco install -y github-desktop
 echo "install vscode"
-choco install vscode
+choco install -y vscode
 echo "install vscode extension"
 code --install-extension abusaidm.html-snippets
 code --install-extension bmewburn.vscode-intelephense-client
@@ -39,30 +39,30 @@ code --install-extension sidthesloth.html5-boilerplate
 code --install-extension skyran.js-jsx-snippets
 code --install-extension vscode-icons-team.vscode-icons
 echo "install windows-terminal"
-choco install microsoft-windows-terminal
+choco install -y microsoft-windows-terminal
 echo "install termius"
-choco install termius
+choco install -y termius
 echo "install postman"
-choco install postman
+choco install -y postman
 echo "install google-chrome"
-choco install googlechrome
+choco install -y googlechrome
 echo "install line"
-choco install line
+choco install -y line
 echo "install slack"
-choco install slack
+choco install -y slack
 echo "install zoom"
-choco install zoom
+choco install -y zoom
 echo "install notion"
-choco install notion
+choco install -y notion
 echo "install openvpn-connect"
-choco install openvpn-connect
+choco install -y openvpn-connect
 echo "install virtualbox"
-choco install virtualbox
+choco install -y virtualbox
 echo "install vagrant"
-choco install vagrant
+choco install -y vagrant
 echo "install docker-desktop"
-choco install docker-desktop
+choco install -y docker-desktop
 echo "install winRAR"
-choco install winrar
+choco install -y winrar
 echo "install discord"
-choco install discord
+choco install -y discord
