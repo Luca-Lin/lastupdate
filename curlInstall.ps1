@@ -30,6 +30,7 @@ echo "install openvpn-connect"
 choco install -y openvpn-connect
 echo "install virtualbox"
 choco install -y virtualbox
+choco install -y virtualbox-extension-pack
 echo "install vagrant"
 choco install -y vagrant
 echo "install docker-desktop"
