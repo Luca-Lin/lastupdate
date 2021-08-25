@@ -72,7 +72,7 @@ choco install -y notion
 choco install -y openvpn-connect
 
 ## VirtulBox
-choco install -y virtualbox virtualbox-extension-pack
+choco install -y virtualbox
 
 ## Vagrant
 choco install -y vagrant
