@@ -1,4 +1,6 @@
 # lastupdate
+this project is for mac/windows can reinstall application in one script
+
 ## mac
 First and Last Up-to-date All-in-one Script
 
