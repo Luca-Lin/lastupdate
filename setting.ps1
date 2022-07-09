@@ -1,6 +1,6 @@
 echo "setting git"
 git config --global user.email "kwe0349@gmail.com"
-git config --global user.name "ZongYing_Lin"
+git config --global user.name "Luca-Lin"
 echo "install vscode extension"
 code --install-extension abusaidm.html-snippets
 code --install-extension bmewburn.vscode-intelephense-client
