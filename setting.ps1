@@ -26,3 +26,11 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension sidthesloth.html5-boilerplate
 code --install-extension skyran.js-jsx-snippets
 code --install-extension vscode-icons-team.vscode-icons
+
+## $profile
+oh-my-posh init pwsh --config "C:/Users/user/scoop/apps/oh-my-posh/current/themes/tonybaloney.omp.json" | Invoke-Expression
+function cdts {Set-Location -Path C:\TrunkStudio}
+function ex {explorer .}
+Set-Alias tk cdts
+function zl {Import-Module ZLocation}
+function zg {Import-Module posh-git}
