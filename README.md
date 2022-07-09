@@ -58,10 +58,10 @@ curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/update.
 
     install
     ```
-    curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/install.ps1 -OutFile 'C:\TrunkStudio\allInOneScript\install.ps1' | wt PowerShell "Start-Process powershell '-File C:\TrunkStudio\allInOneScript\install.ps1' -Verb runAs"
+    curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/install/install.ps1 -OutFile 'C:\TrunkStudio\allInOneScript\install.ps1' | wt PowerShell "Start-Process powershell '-File C:\TrunkStudio\allInOneScript\install.ps1' -Verb runAs"
     ```
 
     upgrade
     ```
-    curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade.ps1 -OutFile 'C:\TrunkStudio\allInOneScript\upgrade.ps1' | wt PowerShell "Start-Process powershell '-File C:\TrunkStudio\allInOneScript\upgrade.ps1' -Verb runAs"
+    curl https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade/upgrade.ps1 -OutFile 'C:\TrunkStudio\allInOneScript\upgrade.ps1' | wt PowerShell "Start-Process powershell '-File C:\TrunkStudio\allInOneScript\upgrade.ps1' -Verb runAs"
     ```
