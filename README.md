@@ -6,14 +6,14 @@ MAC 電腦或是 Windows 電腦重灌後可以使用此專案快速安裝所需�
 Install
 
 ```
-curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/install/install.sh | bash
 ```
 
 Update
 
 
 ```
-curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/update.sh | bash
+curl -fsSL https://raw.githubusercontent.com/s1410631041/lastupdate/main/upgrade/upgrade.sh | bash
 ```
 
 ## windows
