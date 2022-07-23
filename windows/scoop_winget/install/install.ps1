@@ -1,4 +1,6 @@
 scoop bucket add extras
+scoop bucket add nonportable
+scoop bucket add main
 scoop update
 scoop install git
 scoop install oh-my-posh
@@ -20,6 +22,7 @@ scoop install vagrant
 scoop install android-studio
 scoop install winrar
 scoop install discord
+scoop install 1password-cli
 
 ## use admin
 winget install -e --id AgileBits.1Password
