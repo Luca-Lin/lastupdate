@@ -1,4 +1,5 @@
 scoop bucket add extras
+scoop update
 scoop install git
 scoop install oh-my-posh
 scoop install nvm
