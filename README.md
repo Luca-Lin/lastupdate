@@ -77,15 +77,15 @@ curl -fsSL https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/macOS/upgr
 
     install scoop and winget
     ```powershell
-    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/scoop/scoop_winget.ps1 | Select -ExpandProperty Content | powershell
+    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/scoop_winget/scoop_winget.ps1 | Select -ExpandProperty Content | powershell
     ```
 
     install
     ```powershell
-    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/scoop/install/install.ps1 | Select -ExpandProperty Content | powershell
+    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/scoop_winget/install/install.ps1 | Select -ExpandProperty Content | powershell
     ```
     
     upgrade
     ```powershell
-    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/winget/upgrade/upgrade.ps1 | Select -ExpandProperty Content | powershell
+    curl https://raw.githubusercontent.com/Luca-Lin/lastupdate/main/windows/scoop_winget/upgrade/upgrade.ps1 | Select -ExpandProperty Content | powershell
     ```
