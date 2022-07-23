@@ -6,7 +6,6 @@ scoop install git
 scoop install oh-my-posh
 scoop install nvm
 scoop install npm yarn
-scoop install xampp
 scoop install composer
 scoop install github sourcetree
 scoop install vscode
@@ -22,6 +21,7 @@ scoop install android-studio
 scoop install winrar
 scoop install discord
 scoop install 1password-cli
+scoop install xampp-np
 
 ## use admin
 winget install -e --id AgileBits.1Password
