@@ -16,7 +16,7 @@ scoop install postman
 scoop install googlechrome
 scoop install slack
 scoop install notion
-scoop install virtualbox-np
+scoop install virtualbox-with-extension-pack-np
 scoop install vagrant
 scoop install android-studio
 scoop install winrar
