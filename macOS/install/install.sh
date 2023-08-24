@@ -43,25 +43,25 @@ install-dev-tools() {
     brew install mas
 
     # VirtualBox
-    echo -e "${YELLOW}Install Virtual Box ${CLEAR}"
-    brew install virtualbox virtualbox-extension-pack
+    # echo -e "${YELLOW}Install Virtual Box ${CLEAR}"
+    # brew install virtualbox virtualbox-extension-pack
 
     # Docker, Vagrant
-    echo -e "${YELLOW}Install Docker & Vagrant${CLEAR}"
-    brew install vagrant
-    brew install --cask docker
+    # echo -e "${YELLOW}Install Docker & Vagrant${CLEAR}"
+    # brew install vagrant
+    # brew install --cask docker
 
     # SourceTree
-    echo -e "${YELLOW}Install SourceTree${CLEAR}"
-    brew install --cask sourcetree
+    # echo -e "${YELLOW}Install SourceTree${CLEAR}"
+    # brew install --cask sourcetree
 
     # iTerm2
     echo -e "${YELLOW}Install iTerm2${CLEAR}"
     brew install iterm2
 
     # Appium
-    echo -e "${YELLOW}Install Appium${CLEAR}"
-    brew install appium
+    # echo -e "${YELLOW}Install Appium${CLEAR}"
+    # brew install appium
 
     # ngrok
     echo -e "${YELLOW}Install ngrok${CLEAR}"
@@ -100,22 +100,22 @@ install-dev-software() {
     source ~/.nvm/nvm.sh
 
     # nginx
-    echo -e "${YELLOW}Install nginx${CLEAR}"
-    brew install nginx
+    # echo -e "${YELLOW}Install nginx${CLEAR}"
+    # brew install nginx
 
     # git
     echo -e "${YELLOW}Install GIT${CLEAR}"
     brew install git
-    git config --global user.email "tilda.lu@trunk-studio.com"
-    git config --global user.name "Tilda"
+    git config --global user.email "luca@trunk-studio.com"
+    git config --global user.name "Luca"
 
     # yarn
-    echo -e "${YELLOW}Install yarn${CLEAR}"
-    brew install yarn
+    # echo -e "${YELLOW}Install yarn${CLEAR}"
+    # brew install yarn
 
     # pnpm
-    echo -e "${YELLOW}Install pnpm${CLEAR}"
-    brew install pnpm
+    # echo -e "${YELLOW}Install pnpm${CLEAR}"
+    # brew install pnpm
 
     # hexo
     # echo -e "${YELLOW}Install hexo${CLEAR}"
@@ -135,29 +135,29 @@ install-basic-tools() {
     # brew install google-chrome
 
     # Brave
-    echo -e "${YELLOW}Install Brave${CLEAR}"
-    brew install --cask brave-browser
+    # echo -e "${YELLOW}Install Brave${CLEAR}"
+    # brew install --cask brave-browser
 
     # Google Drive
-    echo -e "${YELLOW}Install Google Drive${CLEAR}"
-    brew install google-drive
+    # echo -e "${YELLOW}Install Google Drive${CLEAR}"
+    # brew install google-drive
 
     # 1Password
     echo -e "${YELLOW}Install 1Password${CLEAR}"
     brew install 1password 1password-cli
 
     # Zoom, Slack
-    echo -e "${YELLOW}Install Zoom Slack${CLEAR}"
-    brew install zoom slack
+    # echo -e "${YELLOW}Install Zoom Slack${CLEAR}"
+    # brew install zoom slack
 
     # Sketch, Figma
-    echo -e "${YELLOW}Install Sketch Figma${CLEAR}"
-    brew install sketch
-    brew install figma
+    # echo -e "${YELLOW}Install Sketch Figma${CLEAR}"
+    # brew install sketch
+    # brew install figma
 
     # Zeplin
-    echo -e "${YELLOW}Install zeplin ${CLEAR}"
-    brew install zeplin
+    # echo -e "${YELLOW}Install zeplin ${CLEAR}"
+    # brew install zeplin
 
     # Line
     echo -e "${YELLOW}Install Line${CLEAR}"
@@ -284,12 +284,12 @@ php-laravel-packages() {
     brew install php
 
     # mysql
-    echo -e "${YELLOW}Install mysql${CLEAR}"
-    brew install mysql
+    # echo -e "${YELLOW}Install mysql${CLEAR}"
+    # brew install mysql
 
     # start mysql
-    echo -e "${YELLOW}Starting mysql${CLEAR}"
-    brew services start mysql
+    # echo -e "${YELLOW}Starting mysql${CLEAR}"
+    # brew services start mysql
 
     # composer
     echo -e "${YELLOW}Install composer${CLEAR}"
