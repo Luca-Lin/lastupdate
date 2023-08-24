@@ -255,6 +255,8 @@ install-node() {
 }
 
 install-others() {
+
+    echo -e "${GREEN} install others!${CLEAR}"
     # Skype
     # echo -e "${YELLOW}Install Skype ${CLEAR}"
     # brew install --cask skype
