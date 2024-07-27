@@ -143,8 +143,8 @@ install-basic-tools() {
     # brew install google-drive
 
     # 1Password
-    echo -e "${YELLOW}Install 1Password${CLEAR}"
-    brew install 1password 1password-cli
+    # echo -e "${YELLOW}Install 1Password${CLEAR}"
+    # brew install 1password 1password-cli
 
     # Zoom, Slack
     # echo -e "${YELLOW}Install Zoom Slack${CLEAR}"
@@ -164,8 +164,8 @@ install-basic-tools() {
     mas install 539883307
 
     # AnyDesk
-    echo -e "${YELLOW}Install AnyDesk${CLEAR}"
-    brew install anydesk
+    # echo -e "${YELLOW}Install AnyDesk${CLEAR}"
+    # brew install anydesk
 
     # Notion
     echo -e "${YELLOW}Install Notion${CLEAR}"
@@ -314,8 +314,8 @@ install-all() {
     echo -e "${GREEN}Starting install dev-software !${CLEAR}"
     install-dev-software
 
-    echo -e "${GREEN}Setup basic config${CLEAR}"
-    config-gpg
+    # echo -e "${GREEN}Setup basic config${CLEAR}"
+    # config-gpg
 
     echo -e "${GREEN}Setup Z-Shell${CLEAR}"
     setup-zsh
